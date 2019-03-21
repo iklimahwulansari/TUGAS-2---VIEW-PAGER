@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".first">
+
+
+    <LinearLayout
+            android:background="@drawable/bc"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"/>
+    <ImageView
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="200dp"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:src="@drawable/wl"/>
+    <TextView
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:paddingLeft="20dp"
+            android:text="Apa Itu View Pager?"/>
+
+
+<LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"/>
+    <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="View Pager adalah salah satu komponen view pada android, yang di sediakan pada para developer untuk membuat design yang dapat beranimasi, maksudnya design di sini adalah suatu atau kumpulan object baik berupa komponen view lainnya seperti layout, input, listview, textview, image dan lain-lain."/>
+
+
+</FrameLayout>
+
+
+
